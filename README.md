@@ -9,9 +9,9 @@ SenseLogs runs entirely in your browser. It transparently downloads log data and
 
 ## Features
 
-- Simple
-- Live data
-- Automatic aggregation of streams
+- Transparent downloading of AWS Cloud Watch Logs
+- Automatic aggregation of log streams
+- Live updating of events in the background
 - Infinite smooth scrolling through log events
 - Search and filter events with full text queries
 - View and query events by date range
@@ -19,6 +19,15 @@ SenseLogs runs entirely in your browser. It transparently downloads log data and
 - Save multiple views and bookmark links
 - Supports multiple cloud accounts and regions
 - Free (as in no charge)
+
+### License
+
+SenseLogs is not open source, but you are free to use it without charge. Please read the [License](LICENSE.md) for details. We provide support and respond to issues via a GitHub site at:
+
+    https://github.com/sensedeep/senselogs/issues
+
+We'll soon be releasing an enhanced commercial version that will support synchronizing your log views across multiple devices and will offer enhanced log event searching and query operations.
+
 
 ### Installation
 
@@ -36,7 +45,7 @@ To start using SenseLogs, you need to add an AWS cloud credential to enable acce
 
 You can add one or more AWS cloud credentials to authorize access to your Cloud Watch Log Groups. Your credentials are stored locally, encrypted in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
 
-![SenseLogs Add View](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/cloud-add.png)
+![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/cloud-add.png)
 
 Your AWS cloud credentials can be any AWS IAM access key and secret access key. If you wish, you can restrict the access rights granted to SenseLogs by creating a dedicated IAM user and access key with the policy: https://log.senselogs.com/iam_policy.json.
 
@@ -46,7 +55,7 @@ When you enter your cloud credentials, you must also enter the AWS region contai
 
 Once your credentials are added, SenseLogs will start discovering your Log groups in the background. Navigate to https://logs.sensedeep.com/views/add to create your first Log View. Once added, SenseLogs will transparently download your log event data in the background.
 
-![SenseLogs Add View](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/view-add.png)
+![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/view-add.png)
 
 You can specify a single log stream for the view or all log streams by using * as the stream name. When selecting all streams, SenseLogs will fetch event data from all streams and automatically aggregate the log event data and order by timestamp.
 
@@ -54,11 +63,11 @@ You can specify a single log stream for the view or all log streams by using * a
 
 From the home page, select the log view to display by clicking on the view card.
 
-![SenseLogs Home](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/home.png)
+![SenseLogs Home Page Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/home.png)
 
 From the viewer, you can scroll forwards and backwards over log data. SenseLogs will transparently download log data as required for display.
 
-![SenseLogs Home](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/viewer.png)
+![SenseLogs Viewer Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/viewer.png)
 
 The first and last log events are highlighted with a reverse grey background.
 
@@ -78,7 +87,7 @@ If you select the "Include new fields" checkbox, whenever new fields are encount
 
 You can select a subset of log events to display via the event range slider. Drag the start and end markers to the desired times. If you click on the start or end mark labels, you can enter explicit dates and times.
 
-![SenseLogs Add View](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/date-range.png)
+![SenseLogs Filter by Date Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/viewer-filtering.png)
 
 #### Filter by Text
 
@@ -92,12 +101,6 @@ If your log events are written as single line JSON records and you specify the f
 
 The View live tail option causes SenseLogs to poll for new event data and display new log events at the "tail" of the viewer display. The view polling period can be defined when you create or modify a view. As new events are added to the viewer, they will be highlighted with a temporary "flash" of those event rows.
 
-### Enterprise Version
+### Thanks
 
-This version of SenseLogs is free of charge and we'll soon be releasing an enhanced commercial version. The commercial version will support synchronizing your log views across multiple devices and will offer enhanced log event searching and query operations. Please let us know if there are enhancements that you would like to see in SenseLogs by emailing us at dev@sensedeep.com.
-
-### License
-
-The community edition of SenseLogs (this version) is not open source, but you are free to use it without charge. Please read the [License](LICENSE.md) for details. We provide support and respond to issues via a GitHub site at:
-
-    https://github.com/sensedeep/senselogs/issues
+Thanks for trying SenseLogs. Please let us know if there are enhancements that you would like to see in SenseLogs by emailing us at dev@sensedeep.com.
