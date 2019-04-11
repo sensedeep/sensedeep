@@ -7,9 +7,9 @@ This version is an early test of the core functionality. It is not complete or b
 
 ## Description
 
-SenseLogs is a log viewer that runs blazingly fast, entirely in your browser. It transparently downloads log data and stores it locally in your browser application cache for immediate viewing, smooth scrolling and super fast queries. SenseLogs supports effortless scrolling through log data with powerful full text searching.
+SenseLogs is an AWS Cloud Watch Logs viewer that runs fast, entirely in your browser. It transparently downloads log data and stores events in your browser application cache for immediate viewing, smooth scrolling and queries. SenseLogs supports infinite scrolling through log data with powerful full text searching.
 
-SenseLogs aggregates logs from multiple AWS log streams into a single, uniform view for easy analysis.
+SenseLogs aggregates logs from multiple AWS log streams into a single, uniform view for analysis.
 
 ![SenseLogs Viewer Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/viewer.png)
 
@@ -22,36 +22,51 @@ SenseLogs aggregates logs from multiple AWS log streams into a single, uniform v
 - Search and filter events with full text queries
 - View and query events by date range
 - JSON Smart -- extracts fields from event data
-- Save multiple views and bookmark links
+- Save multiple log views
+- Bookmark favorite views
 - Free (as in no charge)
 
 ### License
 
 SenseLogs is not open source, but you are free to use it without charge. Please read the [License](LICENSE.md) for details. We provide support and respond to issues via a GitHub site at:
 
-    https://github.com/sensedeep/senselogs/issues
+[https://github.com/sensedeep/senselogs/issues](https://github.com/sensedeep/senselogs/issues)
 
-This free version has some capacity limits. You can configure one AWS cloud account and four log views.  We'll soon be releasing an enhanced commercial version that supports multiple clouds, regions and synchronizes your log views via the cloud across multiple devices. It also offers enhanced log event searching and query operations. 
+This free version has some capacity limits. You can configure one AWS cloud account and four log views.  We'll soon be releasing an enhanced commercial version that supports multiple clouds, regions and synchronizes your log views via the cloud across multiple devices. It also offers enhanced log event searching and query operations.
 
 ### Installation
 
 There is nothing to install. Just navigate your browser to:
 
-    https://log.senselogs.com/
+[https://senselogs.senselogs.com/](https://senselogs.senselogs.com/)
 
 SenseLogs is a single page application that will render in your browser. SenseLogs supports the Chrome, Firefox and Safari desktop browsers.
 
-## Getting Started
+### Whats New
 
-To start using SenseLogs, you need to add an AWS cloud credential to enable access to your AWS Cloud Watch Logs. Then you can create one or more views of your logs. It takes only a minute to get started.
+To see what is new in the latest release of SenseLogs, you can read the release change log at:
+
+https://github.com/sensedeep/senselogs/releases
+
+### Support
+
+While there is no "support", you can log issues or request new features at:
+
+https://github.com/sensedeep/senselogs/issues
+
+## Getting Started
 
 ### Cloud Credentials
 
-You can add one or more AWS cloud credentials to authorize access to your Cloud Watch Log Groups. Your credentials are stored locally, in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
+To start using SenseLogs, you need to add an AWS cloud credential to enable access to your AWS Cloud Watch Logs.
+
+Your credentials are stored locally, in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
 
 ![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/cloud-add.png)
 
-Your AWS cloud credentials can be any AWS IAM access key and secret access key. If you wish, you can restrict the access rights granted to SenseLogs by creating a dedicated IAM user and access key with the policy: https://log.senselogs.com/iam_policy.json.
+Your AWS cloud credentials can be any AWS IAM access key and secret access key. If you wish, you can restrict the access rights granted to SenseLogs by creating a dedicated IAM user and access key with the policy:
+
+[https://senselogs.senselogs.com/iam_policy.json](https://senselogs.senselogs.com/iam_policy.json)
 
 When you enter your cloud credentials, you must also enter the AWS region containing your logs.
 
@@ -59,7 +74,7 @@ When you enter your cloud credentials, you must also enter the AWS region contai
 
 Once your credentials are added, SenseLogs will start discovering your Log groups in the background. But it will only download events for those logs for which you define a log view.
 
-To create a view, navigate to https://logs.sensedeep.com/views/add. Once added, SenseLogs will transparently download your log event data in the background.
+To create a view, navigate to https://senselogs.sensedeep.com/views/add. Once added, SenseLogs will transparently download your log event data in the background.
 
 ![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/view-add.png)
 
