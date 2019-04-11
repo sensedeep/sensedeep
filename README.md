@@ -3,6 +3,8 @@ SenseLogs
 
 SenseLogs is a better log viewer for AWS cloud watch logs.
 
+This version is an early test of the core functionality. It is not complete or bug free.
+
 ## Description
 
 SenseLogs is a log viewer that runs blazingly fast, entirely in your browser. It transparently downloads log data and stores it locally in your browser application cache for immediate viewing, smooth scrolling and super fast queries. SenseLogs supports effortless scrolling through log data with powerful full text searching.
@@ -21,7 +23,6 @@ SenseLogs aggregates logs from multiple AWS log streams into a single, uniform v
 - View and query events by date range
 - JSON Smart -- extracts fields from event data
 - Save multiple views and bookmark links
-- Supports multiple cloud accounts and regions
 - Free (as in no charge)
 
 ### License
@@ -30,7 +31,7 @@ SenseLogs is not open source, but you are free to use it without charge. Please 
 
     https://github.com/sensedeep/senselogs/issues
 
-This free version has some capacity limits. You can configure one AWS cloud account and four log views.  We'll soon be releasing an enhanced commercial version that removes the limits and supports synchronizing your log views across multiple devices and with enhanced log event searching and query operations.
+This free version has some capacity limits. You can configure one AWS cloud account and four log views.  We'll soon be releasing an enhanced commercial version that supports multiple clouds, regions and synchronizes your log views via the cloud across multiple devices. It also offers enhanced log event searching and query operations. 
 
 ### Installation
 
@@ -38,7 +39,7 @@ There is nothing to install. Just navigate your browser to:
 
     https://log.senselogs.com/
 
-SenseLogs is a single page application that will render in your browser. SenseLogs supports the Chrome, Firefox and Safari desktop browsers. 
+SenseLogs is a single page application that will render in your browser. SenseLogs supports the Chrome, Firefox and Safari desktop browsers.
 
 ## Getting Started
 
