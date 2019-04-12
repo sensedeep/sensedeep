@@ -92,17 +92,17 @@ From the viewer, you can scroll forwards and backwards over log data. SenseLogs 
 
 The first and last log events are highlighted with a reverse grey background.
 
-### Log Filtering
+Event column widths can be resized by dragging the column separator in the title (only) to the desired width. Your changes will be persisted.
+
+### View Options
 
 From the viewer, you can modify view options by clicking on the view name at the top of the page. This will display a drop-down expansion panel of view and filtering options.
 
-Changes made in the viewer are by default not persisted to the view configuration and will only take effect while you remain in the viewer. If you click "Save" after making changes, they will be persisted and update the default view configuration.
+Changes made in the viewer are persisted to the view configuration.
 
 #### Select Fields
 
-Click the "Select Fields" button to select which event fields are displayed. Your selections will be persisted on a per-view basis.
-
-If you select the "Include new fields" checkbox, whenever new fields are encountered in the log event stream, the new fields will be displayed by default.
+Click the "Select Fields" button to select which event fields are displayed. When you add a field, it will be added to the right of existing fields. You can use this to re-order fields by removing and then re-adding in the desired order.
 
 #### Filter by Date
 
@@ -120,7 +120,7 @@ If your log events are written as single line JSON records and you specify the f
 
 ### Live Tail Mode
 
-The View live tail option causes SenseLogs to poll for new event data and display new log events at the "tail" of the viewer display. The view polling period can be defined when you create or modify a view. As new events are added to the viewer, they will be highlighted with a temporary "flash" of those event rows.
+SenseLogs will append new data and scroll to the bottom if the "Live Tail" option is selected. As new events are added to the viewer, they will be highlighted with a temporary "flash" of those event rows.
 
 ### Thanks
 
