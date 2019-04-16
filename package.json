@@ -1,7 +1,7 @@
 {
     "name": "SenseLogs",
     "description": "SenseDeep SenseLogs",
-    "version": "0.8.2",
+    "version": "0.8.3",
     "homepage": "https://senselogs.sensedeep.com",
     "author": {
         "name": "SenseDeep Inc",
@@ -16,8 +16,10 @@
         "email": "dev@sensedeep.com",
         "url": "http://github.com/sensedeep/senselogs/issues"
     },
-    "licenses": [ {
-        "type": "Commercial",
-        "url": "https://raw.githubusercontent.com/sensedeep/senselogs/master/LICENSE.md"
-    }]
+    "licenses": [
+        {
+            "type": "Commercial",
+            "url": "https://raw.githubusercontent.com/sensedeep/senselogs/master/LICENSE.md"
+        }
+    ]
 }

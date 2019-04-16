@@ -21,6 +21,7 @@ SenseLogs aggregates logs from multiple AWS log streams into a single, uniform v
 - Infinite smooth scrolling through log events
 - Search and filter events with full text queries
 - View and query events by date range
+- Fast Go To event by date and time
 - JSON Smart -- extracts fields from event data
 - Save multiple log views
 - Bookmark favorite views
