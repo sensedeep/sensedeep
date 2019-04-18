@@ -39,7 +39,7 @@ This free version has some capacity limits. You can configure one AWS cloud acco
 
 There is nothing to install. Just navigate your browser to:
 
-[https://senselogs.senselogs.com/](https://senselogs.senselogs.com/)
+[https://senselogs.sensedeep.com/](https://senselogs.sensedeep.com/)
 
 SenseLogs is a single page application that will render in your browser. SenseLogs supports the Chrome, Firefox and Safari desktop browsers.
 
@@ -59,15 +59,31 @@ https://github.com/sensedeep/senselogs/issues
 
 ### Cloud Credentials
 
-To start using SenseLogs, you need to add an AWS cloud credential to enable access to your AWS Cloud Watch Logs.
+To start using SenseLogs, you need to add an AWS cloud credential to enable read-only access to your AWS Cloud Watch Logs.
 
-Your credentials are stored locally, in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
+Your credentials are stored locally, in encrypted your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
 
 ![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/cloud-add.png)
 
 Your AWS cloud credentials can be any AWS IAM access key and secret access key. If you wish, you can restrict the access rights granted to SenseLogs by creating a dedicated IAM user and access key with the policy:
 
-[https://senselogs.senselogs.com/iam_policy.json](https://senselogs.senselogs.com/iam_policy.json)
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [{
+      "Sid": "ReadOnlyAccess",
+      "Action": [
+          "logs:DescribeLogGroups",
+          "logs:DescribeLogStreams",
+          "logs:GetLogEvents"
+      ],
+      "Resource": "*",
+      "Effect": "Allow"
+  }]
+}
+```
+
+This policy grants read-only access to get AWS logs and streams and get logs events.
 
 When you enter your cloud credentials, you must also enter the AWS region containing your logs.
 
@@ -87,11 +103,15 @@ From the home page, select the log view to display by clicking on the view card.
 
 ![SenseLogs Home Page Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/home.png)
 
-From the viewer, you can scroll forwards and backwards over log data. SenseLogs will transparently download log data as required for display.
+This will launch the viewer for that log view.
 
 ![SenseLogs Viewer Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/viewer.png)
 
+From the viewer, you can scroll forwards and backwards over log data. SenseLogs will transparently download log data as required for display.
+
 The first and last log events are highlighted with a reverse grey background.
+
+You can also drag the horizontal slider to position the view at the desired date. The start and end date pill buttons can be used to jump to the start and end of the event stream.
 
 Event column widths can be resized by dragging the column separator in the title (only) to the desired width. Your changes will be persisted.
 
