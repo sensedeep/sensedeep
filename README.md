@@ -20,6 +20,7 @@ SenseLogs aggregates logs from multiple AWS log streams into a single, uniform v
 - Live updating of events in the background
 - Infinite smooth scrolling through log events
 - Search and filter events with full text queries
+- Cache log data limited by size or date range
 - View and query events by date range
 - Fast Go To event by date and time
 - JSON Smart -- extracts fields from event data
@@ -33,7 +34,7 @@ SenseLogs is not open source, but you are free to use it without charge. Please 
 
 [https://github.com/sensedeep/senselogs/issues](https://github.com/sensedeep/senselogs/issues)
 
-This free version has some capacity limits. You can configure one AWS cloud account and four log views.  We'll soon be releasing an enhanced commercial version that supports multiple clouds, regions and synchronizes your log views via the cloud across multiple devices. It also offers enhanced log event searching and query operations.
+The free version has some capacity limits. You can configure one AWS cloud account and four log views.  We'll soon be releasing an enhanced commercial version that supports multiple clouds, regions and synchronizes your log views via the cloud across multiple devices, and offers enhanced log event searching and query operations.
 
 ### Installation
 
@@ -41,7 +42,7 @@ There is nothing to install. Just navigate your browser to:
 
 [https://senselogs.sensedeep.com/](https://senselogs.sensedeep.com/)
 
-SenseLogs is a single page application that will render in your browser. SenseLogs supports the Chrome, Firefox and Safari desktop browsers.
+SenseLogs is a single page application that will render in your browser. SenseLogs supports the latest Chrome, Firefox and Safari desktop browsers.
 
 ### Whats New
 
