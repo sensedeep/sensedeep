@@ -62,7 +62,7 @@ https://github.com/sensedeep/senselogs/issues
 
 To start using SenseLogs, you need to add an AWS cloud credential to enable read-only access to your AWS Cloud Watch Logs.
 
-Your credentials are stored locally, in encrypted your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
+Your credentials are stored locally, in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
 
 ![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/cloud-add.png)
 
