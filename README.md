@@ -1,13 +1,13 @@
 SenseLogs
 ===
 
-SenseLogs is a better log viewer for AWS cloud watch logs.
+SenseLogs is a better log viewer for AWS CloudWatch logs.
 
 This version is an early test of the core functionality. It is not complete or bug free.
 
 ## Description
 
-SenseLogs is an AWS Cloud Watch Logs viewer that runs fast, entirely in your browser. It transparently downloads log data and stores events in your browser application cache for immediate viewing, smooth scrolling and queries. SenseLogs supports infinite scrolling through log data with powerful full text searching.
+SenseLogs is an AWS CloudWatch Logs viewer that runs fast, entirely in your browser. It transparently downloads log data and stores events in your browser application cache for immediate viewing, smooth scrolling and queries. SenseLogs supports infinite scrolling through log data with powerful full text searching.
 
 SenseLogs aggregates logs from multiple AWS log streams into a single, uniform view for analysis.
 
@@ -15,7 +15,7 @@ SenseLogs aggregates logs from multiple AWS log streams into a single, uniform v
 
 ## Features
 
-- Transparent downloading of AWS Cloud Watch Logs
+- Transparent downloading of AWS CloudWatch Logs
 - Automatic aggregation of log streams
 - Live updating of events in the background
 - Infinite smooth scrolling through log events
@@ -60,7 +60,7 @@ https://github.com/sensedeep/senselogs/issues
 
 ### Cloud Credentials
 
-To start using SenseLogs, you need to add an AWS cloud credential to enable read-only access to your AWS Cloud Watch Logs.
+To start using SenseLogs, you need to add an AWS cloud credential to enable read-only access to your AWS CloudWatch Logs.
 
 Your credentials are stored locally, in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party.
 
