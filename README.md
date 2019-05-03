@@ -14,6 +14,12 @@ SenseLogs offers:
 * Zero-delay live tail.
 * Powerful, fast queries to quickly locate errors.
 
+Under the hood:
+
+* Stores log data in your browser cache for instant scanning and queries.
+* Aggregates data from multiple log streams into a single log group.
+* Bookmarks favorite views for instant recall.
+
 ### Try it Free
 
 There is nothing to install, just navigate your browser to SenseLogs to run:
