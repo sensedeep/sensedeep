@@ -5,20 +5,17 @@ SenseLogs is a snappy log viewer for cloud developers who want an effortless way
 
 ## Features
 
-- Fast. SenseLogs navigates through your logs 5x faster than the AWS console.
 - Transparent downloading of AWS CloudWatch Logs.
 - Automatic aggregation of log streams.
 - Live updating of events in the background.
 - Infinite smooth scrolling through log events.
+- Fast log scanning. SenseLogs navigates through your logs 5x faster than the AWS console.
 - Search and filter events with full text queries.
 - SenseLogs queries data 10x faster than CloudWatch Insights.
 - Cache log data limited by size or date range.
 - View and query events by date range with fast Goto event by date and time.
-- JSON Smart -- extracts fields from JSON event data.
-- Save multiple log views.
-- Bookmark favorite views.
-- Free (as in no charge).
-
+- Smart log parsing &mdash; extracts fields from JSON event data.
+- Save and bookmark favorite log views.
 
 ## Getting Started
 
@@ -29,7 +26,6 @@ To start using SenseLogs, you need to add an AWS cloud credential to enable read
 Your credentials are stored locally, in your browser cache and accessible only to the SenseLogs application in your browser. The credentials are only provided to the AWS SDK running in your browser and are not transmitted or shared with any other party other than AWS.
 
 ![SenseLogs Add View Image](https://raw.githubusercontent.com/sensedeep/senselogs/master/images/cloud-add.png)
-
 
 
 ```
@@ -102,7 +98,7 @@ You can select a subset of log events to display via the event range slider. Dra
 
 Events can be filtered by specifying a matching text pattern. SenseDeep performs full-text matching against all fields of the log event record. Text matches are performed with case-less comparisons.
 
-### Live Tail Mode
+### Live Tail
 
 SenseLogs will append new data and scroll to the bottom if the "Live Tail" option is selected. As new events are added to the viewer, they will be highlighted with a temporary "flash" of those event rows.
 
