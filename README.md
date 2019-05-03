@@ -28,7 +28,7 @@ We'll soon be releasing an enhanced commercial version that supports multiple cl
 
 To Learn how to get the most out of SenseLogs, read:
 
-[SenseLogs HowTo](https://github.com/sensedeep/senselogs/blob/master/HowTo.md)
+[SenseLogs HowTo](https://github.com/sensedeep/senselogs/blob/master/HowTo.md).
 
 ### Support
 

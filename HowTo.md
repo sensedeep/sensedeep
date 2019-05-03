@@ -1,4 +1,4 @@
-Learn SenseLogs
+SenseLogs How To
 ===
 
 SenseLogs is a snappy log viewer for cloud developers who want an effortless way to find application errors and events.
