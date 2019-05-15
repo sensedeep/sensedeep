@@ -1,7 +1,7 @@
 SenseLogs
 ===
 
-SenseLogs is a snappy log viewer designed for cloud developers who crave an effortless way to pinpoint errors without the overhead of enterprise logging solutions.
+SenseLogs is an AWS Cloud Watch Logs viewer designed for developers who crave an effortless way to pinpoint errors without the overhead of enterprise logging solutions.
 
 ![SenseLogs Viewer Image](https://senselogs.sensedeep.com/images/viewer.png)
 
@@ -30,7 +30,7 @@ There is nothing to install, just navigate your browser to SenseLogs to run:
 
 To Learn how to get the most out of SenseLogs, read:
 
-[SenseLogs HowTo](https://github.com/sensedeep/senselogs/blob/master/HowTo.md).
+[SenseLogs HowTo](https://www.sensedeep.com/senselogs)
 
 ### Support
 
