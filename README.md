@@ -30,7 +30,7 @@ There is nothing to install, just navigate your browser to SenseLogs to run:
 
 To Learn how to get the most out of SenseLogs, read:
 
-[SenseLogs HowTo](https://www.sensedeep.com/senselogs/doc/)
+[SenseLogs Doc](https://www.sensedeep.com/senselogs/doc/)
 
 ### Support
 
