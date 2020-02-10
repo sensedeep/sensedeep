@@ -1,12 +1,12 @@
 {
     "name": "SenseLogs",
     "description": "SenseDeep SenseLogs",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "homepage": "https://senselogs.sensedeep.com",
     "author": {
         "name": "SenseDeep Inc",
         "email": "dev@sensedeep.com",
-        "url": "https://senselogs.sensedeep.com"
+        "url": "https://www.sensedeep.com"
     },
     "repository": {
         "type": "git",
