@@ -3,15 +3,10 @@ SenseDeep
 
 SenseDeep is a Serverless monitoring and management solution that provides AWS cloud developers with a fast and effortless way to troubleshoot their Serverless applications in real-time and achieve true observability of their applications.
 
-SenseDeep is the fastest monitoring solution for Serverless. Via its unique design and direct client access to AWS metrics and logs, SenseDeep is able to deliver Serverless observability with metrics, insights and logs up to 800% faster than existing solutions.
 
 ![SenseDeep Viewer Image](https://www.sensedeep.com/images/sensedeep/home.png)
 
-SenseDeep offers:
-
-* a complete Serverless monitoring and troubleshooting in a cohesive, easy-to-use service.
-* Due to its unique direct-to-client design, SenseDeep is 200-800% faster than competing solutions in responding to AWS Lambda events and highlighting critical Serverless issues.
-* SenseDeep is minimalist and elegant in design so that developers can easily troubleshoot Serverless issues.
+SenseDeep is the fastest monitoring solution for Serverless. Via its unique design and direct client access to AWS metrics and logs, SenseDeep is able to deliver Serverless observability with metrics, insights and logs up to 800% faster than existing solutions.
 
 ### Try it Free
 
