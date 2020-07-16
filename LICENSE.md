@@ -1,16 +1,16 @@
-SenseLogs License
+SenseDeep License
 ===
 
 This software is commercial software and is not open source.
 
-# SenseLogs
+# SenseDeep
 END USER LICENSE AGREEMENT
 
 IMPORTANT: THIS END USER LICENSE AGREEMENT ("EULA") IS A LEGAL AGREEMENT BETWEEN YOU (AN INDIVIDUAL OR IF ACQUIRED BY OR FOR AN ENTITY, AN ENTITY) AND SENSEDEEP INC. PLEASE READ THIS EULA CAREFULLY BEFORE USIONG THE APPLICATION. THE EULA PROVIDES A LICENSE TO USE THE APPLICATION AND CONTAINS WARRANTY AND LIABILITY DISCLAIMERS. BY USING THE APPLICATION, YOU ARE CONFIRMING YOUR ACCEPTANCE OF THE EULA AND AGREEING TO BECOME BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS, THEN DO NOT ACCESS OR USE THE APPLICATION.
 
 ## 1. License
 
-SenseDeep grants you a revocable, non-exclusive, non-transferable, limited license to access and use SenseLogs (the Application) strictly in accordance with the terms of this Agreement.
+SenseDeep grants you a revocable, non-exclusive, non-transferable, limited license to access and use SenseDeep (the Application) strictly in accordance with the terms of this Agreement.
 
 ## 2. License Restrictions
 
@@ -90,4 +90,4 @@ If you have any questions about this EULA, please contact us at support@sensedee
 Trademarks and Copyrights
 ---
 Copyright (c) SenseDeep Inc. All Rights Reserved.
-SenseLogs and SenseDeep are trademarks and registered trademarks of SenseDeep.
+SenseDeep is a trademark / registered trademarks of SenseDeep.

@@ -1,13 +1,13 @@
-SenseLogs
+SenseDeep
 ===
 
-SenseLogs is an AWS Cloud Watch Logs viewer designed for developers who crave an effortless way to pinpoint errors without the overhead of enterprise logging solutions.
+SenseDeep is a Serverless monitoring and troubleshooting tool for AWS. It is for developers who crave an effortless way to pinpoint Serverless issues without the overhead of complex enterprise monitoring solutions.
 
-![SenseLogs Viewer Image](https://senselogs.sensedeep.com/images/viewer.png)
+![SenseDeep Viewer Image](https://www.sensedeep.com/images/sensedeep/home.png)
 
-SenseLogs is 100% browser-based and transparently downloads logs for extremely fast scanning and queries.
+SenseDeep is 100% browser-based and transparently downloads logs for extremely fast scanning and queries.
 
-SenseLogs offers:
+SenseDeep offers:
 
 * Effortless log viewing with smart log parsing.
 * Transparent log loading and infinite smooth scrolling.
@@ -22,22 +22,22 @@ Under the hood:
 
 ### Try it Free
 
-There is nothing to install, just navigate your browser to SenseLogs to run:
+There is nothing to install, just navigate your browser to SenseDeep to run:
 
-[https://senselogs.sensedeep.com/](https://senselogs.sensedeep.com/)
+[https://www.sensedeep.com/](https://www.sensedeep.com/)
 
 ### Learn More
 
-To Learn how to get the most out of SenseLogs, read:
+To Learn how to get the most out of SenseDeep, read:
 
-[SenseLogs Doc](https://www.sensedeep.com/senselogs/doc/)
+[SenseDeep Doc](https://www.sensedeep.com/doc/)
 
 ### Support
 
 While there is no "support", you can log issues or request new features at:
 
-https://github.com/sensedeep/senselogs/issues
+https://github.com/sensedeep/sensedeep/issues
 
 ### Thanks
 
-Thanks for trying SenseLogs. Please let us know if there are enhancements that you would like to see in SenseLogs by emailing us at [dev@sensedeep.com](mailto:dev@sensedeep.com).
+Thanks for trying SenseDeep. Please let us know if there are enhancements that you would like to see in SenseDeep by emailing us at [dev@sensedeep.com](mailto:dev@sensedeep.com).
