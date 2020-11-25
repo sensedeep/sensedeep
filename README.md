@@ -21,7 +21,7 @@ To Learn how to get the most out of SenseDeep, read:
 
 ### Support
 
-While there is no "support", you can log issues or request new features at:
+You can log issues or request new features at:
 
 https://github.com/sensedeep/sensedeep/issues
 
