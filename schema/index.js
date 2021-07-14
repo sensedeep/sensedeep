@@ -5,6 +5,7 @@
  */
 
 const EnumUuid = /^[0-9A-F]{32}$/i
+const Version = '1.1.0'
 
 export default {
     indexes: {
