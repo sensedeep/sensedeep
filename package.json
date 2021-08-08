@@ -1,7 +1,7 @@
 {
     "name": "SenseDeep",
-    "description": "SenseDeep Serverless Monitoring and Troublshooting",
-    "version": "3.5.0",
+    "description": "SenseDeep Serverless Developer Studio",
+    "version": "3.7.0",
     "homepage": "https://www.sensedeep.com",
     "author": {
         "name": "SenseDeep Inc",
